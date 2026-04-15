@@ -30,6 +30,7 @@ The framework is built around two key components:
 - 🔗 **Cross-source Adaptive Fusion Module (CAFM):** enhances heterogeneous feature interaction through adaptive cross-source weighting together with local-global contextual refinement, producing more discriminative fused representations for classification.
 
 By progressively alternating representative band selection and cross-source fusion, RSCNet learns compact yet expressive multi-source features and achieves strong classification performance with relatively low computational complexity.
+![frame](image/frame.png)
 
 ## 📊 Supported Datasets
 
