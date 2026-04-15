@@ -19,7 +19,7 @@ def myTask(lr, epoch_nums, datasetType, dev):
 
 
 net = 'RSCNet'    
-visualization = False
+visualization = True
 dev = 'cuda:0'
 myTask(0.0001, 1, 3, dev)
 
