@@ -48,7 +48,7 @@ The code currently supports the following dataset settings:
 ## 📁 Repository Structure
 
 ```text
-RSCNet-github/
+RSCNet/
 ├── code/
 │   ├── task.py
 │   ├── train.py
@@ -75,7 +75,7 @@ The current code expects the data directory to be placed **alongside** the repos
 
 ```text
 workspace/
-├── RSCNet-github/
+├── RSCNet/
 └── data/
     ├── Houston2013/
     ├── Houston2018/
