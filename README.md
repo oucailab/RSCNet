@@ -5,7 +5,7 @@ PyTorch implementation of **RSCNet: Representative Spectral Correlation Network 
 This project corresponds to the paper **"Representative Spectral Correlation Network for Multi-source Remote Sensing Image Classification"**, published in **IEEE Transactions on Geoscience and Remote Sensing (IEEE TGRS), 2026**.
 
 <p align="center">
-  <a href="#paper-link-placeholder">
+  <a href="https://ieeexplore.ieee.org/document/11483234">
     <img src="https://img.shields.io/badge/Paper-IEEE%20TGRS%202026-1f6feb?style=for-the-badge" alt="Paper Button" />
   </a>
   <a href="https://drive.google.com/drive/folders/1P9pr-6vbdnS4PPdo1fhg5jP9oZC4ct-v?usp=sharing">
