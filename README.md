@@ -155,12 +155,12 @@ If you find this repository useful, please cite:
 @ARTICLE{11483234,
   author={Gong, Chuanzheng and Gao, Feng and Lin, Junyan and Dong, Junyu and Du, Qian},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Representative Spectral Correlation Network for Multi-source Remote Sensing Image Classification}, 
+  title={Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification}, 
   year={2026},
-  volume={},
+  volume={64},
   number={},
-  pages={1-1},
-  keywords={Sentinel-1;Earth Observing System;Apertures;Feeds;Antennas;Filtering;Filters;Semiconductor lasers;Semiconductor optical amplifiers;Circuits and systems;Multi-source data fusion;Spectral band;Sparse attention;Hyperspectral image;Synthetic aperture radar},
+  pages={1-14},
+  keywords={Sentinel-1;Earth Observing System;Apertures;Feeds;Antennas;Filtering;Filters;Semiconductor lasers;Semiconductor optical amplifiers;Circuits and systems;Hyperspectral image (HSI);multisource data fusion;sparse attention;spectral band;synthetic aperture radar (SAR)},
   doi={10.1109/TGRS.2026.3684877}}
 
 ```
