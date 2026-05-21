@@ -152,16 +152,13 @@ By default, the project saves:
 If you find this repository useful, please cite:
 
 ```bibtex
-@ARTICLE{11483234,
+@ARTICLE{rscnet26tgrs,
   author={Gong, Chuanzheng and Gao, Feng and Lin, Junyan and Dong, Junyu and Du, Qian},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
   title={Representative Spectral Correlation Network for Multisource Remote Sensing Image Classification}, 
   year={2026},
   volume={64},
-  number={},
-  pages={1-14},
-  keywords={Sentinel-1;Earth Observing System;Apertures;Feeds;Antennas;Filtering;Filters;Semiconductor lasers;Semiconductor optical amplifiers;Circuits and systems;Hyperspectral image (HSI);multisource data fusion;sparse attention;spectral band;synthetic aperture radar (SAR)},
-  doi={10.1109/TGRS.2026.3684877}}
+  pages={1-14}}
 
 ```
 
