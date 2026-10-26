@@ -154,15 +154,15 @@ def getData(hsi_path, X_path, gt_path, index_path, keys, channels, windowSize, b
                          windowSize, hsi=hsi, transform=ToTensor())
 
     train_loader = DataLoader(
-        HXtrainset, batch_size=batch_size, shuffle=True, num_workers=num_workers, drop_last=False, pin_memory=pin_memory)    #drop_last=True
+        HXtrainset, batch_size=batch_size, shuffle=True, num_workers=num_workers, drop_last=True, pin_memory=pin_memory)    #drop_last=True
     val_loader = DataLoader(
-        HXvalset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=False, pin_memory=pin_memory)
+        HXvalset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=True, pin_memory=pin_memory)
     test_loader = DataLoader(
-        HXtestset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=False, pin_memory=pin_memory)
+        HXtestset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=True, pin_memory=pin_memory)
     trntst_loader = DataLoader(
-        HXtrntstset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=False, pin_memory=pin_memory)
+        HXtrntstset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=True, pin_memory=pin_memory)
     all_loader = DataLoader(
-        HXallset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=False, pin_memory=pin_memory)
+        HXallset, batch_size=batch_size, shuffle=False, num_workers=num_workers, drop_last=True, pin_memory=pin_memory)
     print("Success!")
     return train_loader, val_loader, test_loader, trntst_loader, all_loader, hsi_pca_wight
 
